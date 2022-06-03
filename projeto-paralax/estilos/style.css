@@ -61,6 +61,7 @@ section#img01{
 }
 section#img02{
     background-image: url(../imagens/chap-casa-avo.jpg);
+    background-position: center center;
 }
 footer{
     background-color: #5C1106;
