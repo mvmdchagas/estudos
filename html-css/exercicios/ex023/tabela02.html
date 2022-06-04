@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>população do Brasil</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        td.num{
+            text-align: right;
+        }
+        td:hover{
+            background-color: blue;
+            color: wheat;
+            cursor:context-menu;
+            transition: .3s;
+            transform: scale(1.4,1.4);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+ 
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        table
+        THEAD
+        TR,TD,TH
+        TBODY
+        TR,TD,TH
+        TFOOT
+        TR,TD,TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>ESTADO</th>
+                <th>POPULAÇÃO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46,649.132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21,411.923	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17,463.349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14,985.284</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11,597.484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11,466.630</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9,674.793</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9,240.580</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
