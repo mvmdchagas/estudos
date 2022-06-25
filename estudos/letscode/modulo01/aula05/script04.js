@@ -1,12 +1,12 @@
-let sinal = 'verde'
-switch(sinal){
-    case 'amarelo' :
-        console.log ('amarelo, não siga');
-        break
-    case 'verde' :
-        console.log ('verde, siga !');
-        break
-    case 'vermelho' :
-        console.log ('vermelho, pare !');
-        break;
+let sinal = 'vermelho';
+switch (sinal){
+    case 'verde':
+    console.log("semafaro aberto, prossiga !");
+    break;
+    case 'amarelo':
+    console.log("Semafaro amarelo, não acelere !");
+    break;
+    case 'vermelho':
+    console.log("semafaro vermelho, pare !");
+    break;
 }
