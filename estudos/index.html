@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <title>Página dos projetos</title>
     <style>
         body{
             margin: 0 auto;
             padding: 0;
-            background-color: rgb(47, 56, 56);
+            background-image: linear-gradient(to bottom,#2f3838,blueviolet);
             font-family: Arial, Helvetica, sans-serif;
-            overflow: hidden;
             text-align: center;
             color: white;
             
         }
         header section{
             background-color: aliceblue;
-            width: 500px;
+            width: 400px;
             border-radius: 5px;
             margin: 0 auto;
             padding: 30px 0 30px 0;
@@ -26,7 +26,6 @@
         }
         header section h1, p{
             color: black;
-            text-align: center;
         }
         nav{
             display: flex;
@@ -41,34 +40,28 @@
             margin: 5px;
             transition: 0.6s;
             width: 300px;
-            padding: 20px;
+            padding: 29px;
             background-color: white;
             border-radius: 5px;
-            
-        
         }
         header a:hover{
             background-color: blueviolet;
             border-radius: 5px;
             color: white;
-            transform: scale(1, 2);
-            
-            
-        }
-        footer{
-            background-color: blueviolet;
-            padding: 5px;
-            display: flex;
-            justify-content: center;
-            color: white;
-            height: 100vh;
-            
-           
         }
         footer a{
             text-decoration: none;
             color: white;
-            border: 1px dashed black;
+            padding: 2px;
+        }
+        footer a:hover{
+            background-color: rgb(66, 38, 5);
+            color: white;
+            border-radius: 3px;
+            
+        }
+        footer p{
+            color: white;
         }
     </style>
 </head>
