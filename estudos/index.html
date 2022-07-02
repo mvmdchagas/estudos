@@ -12,25 +12,49 @@
             padding: 0px;
             box-sizing: border-box;
         }
-        html{
+        body{
             background-image: linear-gradient(to left, rgba(204, 33, 204, 0.5), blueviolet);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        header, main, footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
+       
+        
         li{
             list-style: none;
         }
         header{
-          width: 290px;
+          width: 260px;
           background-color: white;
           margin: 0 auto;
-          border-radius: 5px;
-          line-height: 10px;
-          padding: 30px;  
+          border-radius: 0px 0px 5px 5px;
+          padding: 10px;  
+        }
+        .conteudo-principal-titulo{
+            color: white;
+            text-decoration: none;
+            text-shadow: 1px 1px 4px black;
+        }
+        li{
+            margin-bottom: 30px;
+        }
+        .conteudo-priincipal-link{
+            text-decoration: none;   
+            padding: 10px;           
+            border-left: 1px solid black;
+            font-size: 2em;
+            color: azure;
+        }
+        .conteudo-priincipal-link:hover{
+            background-color:azure;
+            color: blueviolet;
+            border-radius: 3px;
+        }
+        .linkp{
+            background-color: transparent;
+        }
+        footer{
+            background-color: white;
+            padding: 10px;
         }
     </style>
 </head>
@@ -41,19 +65,19 @@
     </header>
 
     <main>
-        <h1>Projetos</h1>
+        <h1 class="conteudo-principal-titulo">Projetos</h1>
         <nav>
             <ul>
-                <li><a href="../projetos/projeto-ballebot/index.html">Ballebot</a></li>
-                <li><a href="../projetos/projeto-android/">Android</a></li>
-                <li><a href="../projetos/projeto-paralax/">Paralax</a></li>
-                <li><a href="../projetos/projeto-social/">Rede Social</a></li>
+                <li><a class="conteudo-priincipal-link" href="../projetos/projeto-ballebot/index.html">Ballebot</a></li>
+                <li><a class="conteudo-priincipal-link" href="../projetos/projeto-android/">Android</a></li>
+                <li><a class="conteudo-priincipal-link" href="../projetos/projeto-paralax/">Paralax</a></li>
+                <li><a class="conteudo-priincipal-link" href="../projetos/projeto-social/">Rede Social</a></li>
             </ul>
         </nav>
     </main>
 
     <footer>
-        <p>desenvolvido por <a href="https://instagram.com/veninma66">Marcos Venicio</a></p>
+        <p>desenvolvido por <a class="linkp" href="https://instagram.com/veninma66">Marcos Venicio</a></p>
     </footer>
 </body>
 </html>
