@@ -34,7 +34,7 @@ body{
 }
 .cabecalho-menu{
     display: flex;
-    gap: 32px;
+    flex-direction: column;
 }
 .cabecalho-menu-item{
     font-family: var(--fonte2);
@@ -60,10 +60,7 @@ body{
     margin-bottom: 48px;
 }
 .conteudo-principal{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    text-align: center;
 
 }
 .conteudo-principal-escrito{
@@ -95,6 +92,7 @@ body{
     font-weight: 400px;
     font-size: 24px;
     color: #2f2325;
+    margin: 0 auto;
 }
 .conteudo-principal-escrito-botao:hover{
 background-color: rgba(204,131,115,0.53);
@@ -107,6 +105,7 @@ color: #ecd6c4;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 24px;
     margin-top: 48px;
 }
@@ -132,4 +131,20 @@ color: #ecd6c4;
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+@media screen and (min-width: 768px){
+    .cabecalho-menu{
+        flex-direction: row;
+        gap: 32px;
+    }
+    .conteudo-principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+    }
+    .conteudo-principal-escrito-botao{
+      margin:0;
+    }
 }
