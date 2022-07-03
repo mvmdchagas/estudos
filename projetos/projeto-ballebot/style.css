@@ -99,7 +99,7 @@ background-color: rgba(204,131,115,0.53);
 color: #ecd6c4;
 }
 .conteudo-principal-imagem{
-    height: 430px;
+    height: 320px;
 }
 .conteudo-secundario{
     display: flex;
@@ -143,6 +143,9 @@ color: #ecd6c4;
         justify-content: space-around;
         align-items: center;
         text-align: left;
+    }.conteudo-principal-imagem{
+        height: 460px;
+        
     }
     .conteudo-principal-escrito-botao{
       margin:0;
